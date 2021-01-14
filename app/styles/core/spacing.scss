@@ -1,0 +1,43 @@
+@import '../config/spacer.scss';
+
+@for $i from 0 to 10 {
+  .m-#{i} {
+    margin: $i * $spacer;
+  }
+
+  .mt-#{i} {
+    margin-top: $i * $spacer;
+  }
+
+  .mr-#{i} {
+    margin-right: $i * $spacer;
+  }
+
+  .mb-#{i} {
+    margin-bottom: $i * $spacer;
+  }
+
+  .ml-#{i} {
+    margin-left: $i * $spacer;
+  }
+
+  .p-#{i} {
+    margin: $i * $spacer;
+  }
+
+  .pt-#{i} {
+    margin-top: $i * $spacer;
+  }
+
+  .pr-#{i} {
+    margin-right: $i * $spacer;
+  }
+
+  .pb-#{i} {
+    margin-bottom: $i * $spacer;
+  }
+
+  .pl-#{i} {
+    margin-left: $i * $spacer;
+  }
+}

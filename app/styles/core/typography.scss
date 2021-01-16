@@ -1,0 +1,17 @@
+@import '../mixins/typography.scss';
+
+.sm {
+  @include size('sm');
+}
+
+.md {
+  @include size('md');
+}
+
+.lg {
+  @include size('lg');
+}
+
+.xl {
+  @include size('xl');
+}

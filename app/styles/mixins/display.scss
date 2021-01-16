@@ -1,0 +1,19 @@
+@mixin no-display {
+  display: none;
+}
+
+@mixin block {
+  display: block;
+}
+
+@mixin flex {
+  display: flex;
+}
+
+@mixin inline {
+  display: inline;
+}
+
+@mixin inline-flex {
+  display: inline-flex;
+}

@@ -1,0 +1,19 @@
+@mixin size($s: 'md') {
+  font-size: 1rem;
+  line-height: 1.25rem;
+
+  @if $s == 'sm' {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  @if $s == 'lg' {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  @if $s == 'xl' {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+}

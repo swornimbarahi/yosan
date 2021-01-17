@@ -1,7 +1,11 @@
 a {
-  
+  color: inherit;
+}
 
-  &.with-arrow::after {
-    content: '\276F';
-  }
+.link {
+  color: inherit;
+}
+
+.with-arrow::after {
+  content: '\276F';
 }
